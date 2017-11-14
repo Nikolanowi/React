@@ -9,8 +9,8 @@
 6 silly lifecycle reactstarter@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle reactstarter@1.0.0~start: reactstarter@1.0.0
 8 verbose lifecycle reactstarter@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle reactstarter@1.0.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\student\Desktop\React\Blog\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Ruby24-x64\bin;C:\Users\student\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\student\AppData\Roaming\npm
-10 verbose lifecycle reactstarter@1.0.0~start: CWD: C:\Users\student\Desktop\React\Blog
+9 verbose lifecycle reactstarter@1.0.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\student\Desktop\React\react\blog- ajax\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Ruby24-x64\bin;C:\Users\student\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\student\AppData\Roaming\npm
+10 verbose lifecycle reactstarter@1.0.0~start: CWD: C:\Users\student\Desktop\React\react\blog- ajax
 11 silly lifecycle reactstarter@1.0.0~start: Args: [ '/d /s /c', 'webpack-dev-server' ]
 12 verbose stack Error: kill ENOSYS
 12 verbose stack     at exports._errnoException (util.js:1020:11)
@@ -21,7 +21,7 @@
 12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
 12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
 12 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
-13 verbose cwd C:\Users\student\Desktop\React\Blog
+13 verbose cwd C:\Users\student\Desktop\React\react\blog- ajax
 14 error Windows_NT 10.0.15063
 15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
 16 error node v6.11.3
