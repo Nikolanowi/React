@@ -6,9 +6,12 @@ const Header = () => {
 
     return (
 
-        <div >
-            <h1 style={{ fontSize: "2em", textAlign: "left" }}>RND Blog </h1>
+        <div style={{paddingTop:"1px",paddingBottom:"10px"}}>
+            
+            <img style={{float:"left",paddingBottom:"10px", textAlign:"center"}}src="./blog.png" />
+
             <Navigation />
+
         </div>
 
     );
