@@ -1,6 +1,5 @@
 import React from "react";
-import Post from "./post";
-import Main from "./main";
+
 
 class Singlepost extends React.Component {
     constructor(props) {
@@ -22,11 +21,11 @@ class Singlepost extends React.Component {
             return "loading";
         }
         return (
-            <div>
+            <div style={{ paddingTop: "10px",textAlign:"center"}}>
 
-                <h3> {this.state.data.title}</h3>
-                <h3>Author name{this.state.data.userId}</h3>
-                <h3> {this.state.data.body}</h3>
+                <h2 style={{backgroundColor: "#782211", color: "#F8EFE5" }}> {this.state.data.title} </h2>
+                <h3 style={{backgroundColor: "#F8EFE5"}}>Author name: | {this.state.data.userId} |</h3>
+                <h4> {this.state.data.body}</h4>
 
 
             </div >
