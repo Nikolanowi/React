@@ -13,21 +13,18 @@ class App extends React.Component {
         super(props);
     }
     render() {
-        return (
-            <div>
-                <Header />
-                <Switch>
-                    <Route exact path="/" component={Main} />
-                    <Route path="/author" component = {Author} />
-                    <Route path="/about" component={About} />
-                    <Route path="/singlepost/:id" component={Singlepost} />
-                    
-                </Switch>
-                <Footer />
-            </div>
+        return (< div >
+            < Header />
+            < Switch >
+                < Route exact path="/" component={Main} />
+                < Route path="/about" component={About} />
+                < Route path="/author" component={Author} />
+                < Route path="/singlepost/:id" component={Singlepost} />
+
+            </Switch >  < Footer />  </div >
         );
     }
 
 }
 
-export default App;
+export default App; 
