@@ -16,8 +16,8 @@ class Main extends React.Component {
     }
     render() {
         return (
-            <main style={{paddingTop:"0.5px"}}>
-                        {
+            <main style={{ paddingTop: "0.5px" }}>
+                {
                     this.state.data.map((post) => {
                         return <Post post={post} key={post.id} />;
                     })}

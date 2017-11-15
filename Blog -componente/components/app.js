@@ -3,6 +3,8 @@ import Footer from "./footer";
 import Main from "./main";
 import Header from "./header";
 import About from "./about";
+import Post from "./post";
+import Singlepost from "./singlepost";
 import { Switch, Route } from "react-router-dom";
 
 class App extends React.Component {
@@ -16,7 +18,8 @@ class App extends React.Component {
                 <Switch>
                     <Route exact path="/" component={Main} />
                     <Route path="/about" component={About} />
-                    
+                    <Route path="/singlepost/:id" component={Singlepost} />
+                   
                 </Switch>
                 <Footer />
             </div>

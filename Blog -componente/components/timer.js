@@ -19,7 +19,8 @@ class Timer extends React.Component {
 
     render() {
         return (
-            <h3> {this.state.setTimer} </h3>
+            <h3 style={{fontFamily:"Arial", color:"#782211", fontWeight:"bold", textAlign:"center"}}> {this.state.setTimer} </h3>
+        
         );
     }
 }
